@@ -1,6 +1,7 @@
 
 const create = (req,res)=>{
-  res.status(201).json({message:'post'})
+  res.status(201).json({message:'post'}),
+  console.log(req.body);
 }
 
 const geT = (req,res)=>{
